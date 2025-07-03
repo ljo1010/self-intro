@@ -19,6 +19,7 @@ body {
     background-color: #f5efe7;
     position: absolute;
     top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     border-radius: 10px;
@@ -57,5 +58,26 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: calc(100% - 120px);
     height: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
+.skills{
+    margin-bottom: 10px;
+}
+
+.skill-bar{
+    background-color: #464444;
+    border-radius: 5px;
+}
+
+.skill-level{
+    background-color: #e195ab;
+    height: 30px;
+    line-height: 30px;
+    color: wheat;
+    text-align: right;
+    padding-right: 10px;
+    box-sizing:  border-box;
 }
